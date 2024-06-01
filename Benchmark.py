@@ -1,3 +1,12 @@
+# --------------------------------------------------------------------
+# Python-Benchmark                                                    |
+# --------------------------------------------------------------------
+# -Made By 3Doge                                                      |
+# -Works on most os (not all tested)                                  |
+# -Free to use and distribute but it would be nice for credit :)      |
+# -Thanks for using!                                                  |
+# --------------------------------------------------------------------
+
 import time
 from datetime import datetime
 
