@@ -3,13 +3,14 @@
 # --------------------------------------------------------------------
 # -Made By 3Doge                                                      |
 # -Works on most os (not all tested)                                  |
-# -Free to use and distribute but it would be nice for credit :)      |
+# -Free to use and distribute, but it would be nice for credit :)     |
 # -Thanks for using!                                                  |
 # --------------------------------------------------------------------
 
 import time
 from datetime import datetime
 
+Tests = input("How many mini tests would you like to do? ")
 
 testings = 0
 
@@ -22,9 +23,8 @@ while True:
     print("The current date and time is", currentDateAndTime)
     testings += 1
     print(testings)
-    if testings == 100:
+    if int(Tests) == testings:
         break
-
 
 text1 = LastTime - FirstTime
 
@@ -34,6 +34,6 @@ besttime = str(text1)[5:]
 
 print(besttime, "seconds")
 
-print("^ time in 100 mini tests")
+print("^ time in ", Tests, "mini tests")
 
 k=input("press enter to exit")
