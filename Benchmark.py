@@ -10,7 +10,7 @@
 import time
 from datetime import datetime
 
-Tests = input("How many mini tests would you like to do? ")
+Tests = input("How many mini tests would you like to do? (Going over 100 can cause bugs sorry!) ")
 
 testings = 0
 
@@ -28,12 +28,10 @@ while True:
 
 text1 = LastTime - FirstTime
 
-
 besttime = str(text1)[5:]
 
+expectedTime = 0.5 * int(Tests)
 
-print(besttime, "seconds")
+print("Expected time:", expectedTime, "Real Time:", besttime)
 
-print("^ time in ", Tests, "mini tests")
-
-k=input("press enter to exit")
+k = input("press enter to exit")
